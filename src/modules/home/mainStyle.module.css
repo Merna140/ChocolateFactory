@@ -1,0 +1,15 @@
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:10%;
+}
+
+.myButton{
+    padding: 8rem;
+    color: blue;
+    font-weight: bold;
+    background-color:beige;
+    border-style:dashed;
+}

@@ -1,0 +1,14 @@
+
+.myButton{
+    margin-inline-end: 0.5rem;
+    padding: 0.2rem;
+}
+
+.myCard{
+    width: 25%;
+    padding: 0.5rem;
+}
+
+.myImg{
+    width: 100%;
+}

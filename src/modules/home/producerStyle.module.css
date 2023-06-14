@@ -1,0 +1,24 @@
+
+.title{
+    padding: 1rem;
+}
+
+.searchBar{
+    padding: 0.5rem;
+}
+
+.myList{
+    font-size: 1.5rem;
+}
+
+.myLi{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.myButtons{
+    padding: 1rem;
+}

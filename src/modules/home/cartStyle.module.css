@@ -1,0 +1,22 @@
+.myCart {
+    background-color: rgb(161, 163, 190);
+    padding: 1rem;
+  }
+
+.myCartDiv{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(29, 5, 138);
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.myCartImg{
+  width: 25%;
+}
+
+.myCartP{
+  color: whitesmoke;
+}
