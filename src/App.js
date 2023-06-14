@@ -7,12 +7,11 @@ import UserLayout from './modules/home/userLayout';
 import Main from './modules/home/main';
 import ProducerLayout from './modules/home/producerLayout';
 import Layout from './modules/home/layout';
-import {HashRouter as Router} from “react-router-dom”
 
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Main />}></Route>
           <Route path='/userMain' element={<UserLayout />}>
@@ -20,7 +19,7 @@ function App() {
             <Route path='producer' element={<ProducerLayout />}></Route>
           </Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
