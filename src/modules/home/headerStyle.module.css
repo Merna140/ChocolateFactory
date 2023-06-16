@@ -1,10 +1,18 @@
 .myHeader {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    background-color: aqua;
-    padding: 0.5rem;
+    background-image: url(./header1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: 40%;
   }
+
+.myLogo{
+  width: 15%;
+  padding: 1.5rem;
+}
+
+.navIteam{
+  font-size: large;
+}
 
 

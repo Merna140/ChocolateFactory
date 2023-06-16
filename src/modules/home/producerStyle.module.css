@@ -1,24 +1,44 @@
-
-.title{
+.title {
     padding: 1rem;
 }
 
-.searchBar{
+.searchBar {
     padding: 0.5rem;
 }
 
-.myList{
+.myList {
     font-size: 1.5rem;
 }
 
-.myLi{
+.myLi {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     gap: 0.5rem;
     padding: 1rem;
 }
 
-.myButtons{
-    padding: 1rem;
+.myButtons {
+    padding: 0.5rem;
+}
+
+.myChocoBar {
+    position: relative;
+    width: 30%;
+}
+
+.chocoName {
+    width: 10%;
+    /* position: absolute;
+    transform: translate(-265%, -10%);
+    color: white;
+    background-color: rgb(52, 9, 153); */
+}
+
+.deleteButton{
+    width: 10%;
+}
+
+.soldLabel{
+    width: 10%;
 }

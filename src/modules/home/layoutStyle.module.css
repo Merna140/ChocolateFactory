@@ -1,6 +1,21 @@
+.mainImg {
+    width: 100%;
+}
 
-.myLayout{
+.mainTitle {
+    font-family: cursive;
+    padding: 1rem;
+    padding-top: 2rem;
+    font-size:2rem;
+    font-weight: bold;
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    justify-content: center;
+}
+
+.cartTitle{
+    font-family: cursive;
+    padding: 1rem;
+    font-size:2rem;
+    font-weight: bold;
 }

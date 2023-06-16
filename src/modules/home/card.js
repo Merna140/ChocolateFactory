@@ -6,8 +6,8 @@ import styles from './myButtonStyle.module.css';
 function MyCard({ card,add,subtract }) {
   return (
     <Card className={styles.myCard} >
-      <Card.Img className={styles.myImg} variant="top" src={card.image} />
-      <Card.Body>
+      <Card.Img className={styles.myImg}  variant="top" src={card.image} />
+      <Card.Body >
         <Card.Title>{card.title}</Card.Title>
         <Card.Text>
           Price= {card.price}

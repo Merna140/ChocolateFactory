@@ -14,7 +14,7 @@ function Cart2({ cartArray, sum }) {
                             <img className={styles.myCartImg} srcSet={e.image}></img>
                             <p className={styles.myCartP}>Total price: {e.count}*{e.price} = {e.count * e.price}</p>
                         </div>
-                        <div>
+                        <div className={styles.total}>
                             Total: {sum}
                         </div>
                     </>
