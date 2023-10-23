@@ -14,55 +14,95 @@ function ProducerLayout() {
     const [data, setmaindata] = useState(
         [{
             "id": 1,
-            "text": "Devpulse",
+            "text": "Hershey´s Bar Chocolate",
             "sold": 1,
             "delete": 0
         }, {
             "id": 2,
-            "text": "Linklinks",
+            "text": "Mini Eggs Cadbury",
             "sold": 0,
             "delete": 0
         }, {
             "id": 3,
-            "text": "Centizu",
+            "text": "Toblerone Milk Chocolate",
             "sold": 1,
             "delete": 0
         }, {
             "id": 4,
-            "text": "Dynabox",
+            "text": "Double Decker Wispa Cadbury",
             "sold": 0,
             "delete": 0
         }, {
             "id": 5,
-            "text": "Avaveo",
+            "text": "Kit Kat chocolate bar",
             "sold": 1,
             "delete": 0
         }, {
             "id": 6,
-            "text": "Demivee",
+            "text": "Picnic Cadbury",
             "sold": 0,
             "delete": 0
         }, {
             "id": 7,
-            "text": "Jayo",
+            "text": "Snickers Almond Chocolate",
             "sold": 1,
             "delete": 0
         }, {
             "id": 8,
-            "text": "Blognation",
+            "text": "Milky Way Candy bar",
             "sold": 0,
             "delete": 0
         }, {
             "id": 9,
-            "text": "Podcat",
-            "sold": 0,
+            "text": "Chocolate bar Cadbury Dairy Milk",
+            "sold": 1,
             "delete": 0
         }, {
             "id": 10,
-            "text": "Layo",
+            "text": "Cadbury Dairy Milk Bubbly",
+            "sold": 1,
+            "delete": 0
+        }, {
+            "id": 11,
+            "text": "Snickers bar",
+            "sold": 1,
+            "delete": 0
+        }, {
+            "id": 12,
+            "text": "Twix Chocolate",
             "sold": 0,
             "delete": 0
-        }]
+        }, {
+            "id": 13,
+            "text": "White chocolate Milka Cream",
+            "sold": 1,
+            "delete": 0
+        },  {
+            "id": 14,
+            "text": "Kinder Bueno Chocolate bar",
+            "sold": 1,
+            "delete": 0
+        },  {
+            "id": 15,
+            "text": "Cadbury Buttons Chocolate",
+            "sold": 0,
+            "delete": 0
+        },   {
+            "id": 16,
+            "text": "Crunch Cream Milka Oreo",
+            "sold": 1,
+            "delete": 0
+        },  {
+            "id": 17,
+            "text": "Mars",
+            "sold": 1,
+            "delete": 0
+        }, {
+            "id": 18,
+            "text": "M&M's Milk Chocolate",
+            "sold": 1,
+            "delete": 0
+        }  ]
     );
 
     const [showAraay, setdata] = useState([...data]);

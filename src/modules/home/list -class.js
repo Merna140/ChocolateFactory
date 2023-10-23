@@ -4,7 +4,6 @@ import styles from './myListStyle.module.css';
 import Layout from "./layout";
 
 class List2 extends Component{
-    // state = {ar:[{image: require('./img1.jpg'),title:"card1",count:0,price:100},{image: require('./img2.jpg'),title:"card2",count:0,price:200},{image: require('./img3.jpg'),title:"card3",count:0,price:300},{image: require('./img4.jpg'),title:"card4",count:0,price:400}]}
     
     add(index) {
         let list = [];
@@ -12,7 +11,6 @@ class List2 extends Component{
         list[index].count++;
         console.log(list);
         this.props.update(list)
-        // this.setState({ar:list});
       }
     
     subtract(index) {
@@ -21,7 +19,6 @@ class List2 extends Component{
         list = [...this.props.ar];
         list[index].count--;
         this.props.update(list)
-        // this.setState({ar:list})
         }
       }
     

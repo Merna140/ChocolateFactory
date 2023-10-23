@@ -12,7 +12,7 @@
 
 .myLi {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
     gap: 0.5rem;
     padding: 1rem;
@@ -28,11 +28,7 @@
 }
 
 .chocoName {
-    width: 10%;
-    /* position: absolute;
-    transform: translate(-265%, -10%);
-    color: white;
-    background-color: rgb(52, 9, 153); */
+    width: 30%;
 }
 
 .deleteButton{
