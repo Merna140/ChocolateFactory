@@ -8,7 +8,7 @@ import styles from './layoutStyle.module.css';
 class Layout extends Component {
 
     state = {
-        ar: [{ image: require('./img1.png'), title: "card1", count: 0, price: 100 }, { image: require('./img2.png'), title: "card2", count: 0, price: 200 }, { image: require('./img3.png'), title: "card3", count: 0, price: 300 }, { image: require('./img4.png'), title: "card4", count: 0, price: 400 }],
+        ar: [{ image: require('./img1.png'), title: "Hershey´s Bar Chocolate", count: 0, price: 320}, { image: require('./img2.png'), title: "Toblerone Milk Chocolate", count: 0, price: 120 }, { image: require('./img3.png'), title: "Kit Kat chocolate bar", count: 0, price: 25 }, { image: require('./img4.png'), title: "Snickers Almond Chocolate", count: 0, price: 35 }, { image: require('./img5.png'), title: "Chocolate bar Cadbury Dairy Milk", count: 0, price: 35 },{ image: require('./img6.png'), title: "Cadbury Dairy Milk Bubbly", count: 0, price: 40 },{ image: require('./img7.png'), title: "Snickers bar", count: 0, price: 25 },{ image: require('./img8.png'), title: "White chocolate Milka Cream", count: 0, price: 120 },{ image: require('./img9.png'), title: "Kinder Bueno Chocolate bar", count: 0, price: 50 },{ image: require('./img10.png'), title: "Crunch Cream Milka Oreo", count: 0, price: 45 },{ image: require('./img11.png'), title: "Mars", count: 0, price: 30 },{ image: require('./img12.png'), title: "M&M's Milk Chocolate", count: 0, price: 20 }],
         img: '',
         price: 0,
         counter: 0,
